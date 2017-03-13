@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Embarcadero noughts and crosses'
+  ClientHeight = 779
+  ClientWidth = 506
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Scale.X = 2.000000000000000000
+    Scale.Y = 2.000000000000000000
+    Size.Width = 253.000000000000000000
+    Size.Height = 389.500000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      StaysPressed = True
+      Position.X = 20.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton2: TSpeedButton
+      StaysPressed = True
+      Position.X = 55.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton3: TSpeedButton
+      StaysPressed = True
+      Position.X = 90.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton4: TSpeedButton
+      StaysPressed = True
+      Position.X = 20.000000000000000000
+      Position.Y = 45.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton5: TSpeedButton
+      StaysPressed = True
+      Position.X = 55.000000000000000000
+      Position.Y = 45.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton6: TSpeedButton
+      StaysPressed = True
+      Position.X = 90.000000000000000000
+      Position.Y = 45.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton7: TSpeedButton
+      StaysPressed = True
+      Position.X = 20.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton8: TSpeedButton
+      StaysPressed = True
+      Position.X = 55.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton9: TSpeedButton
+      StaysPressed = True
+      Position.X = 90.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      Text = #9632
+    end
+    object SpeedButton10: TSpeedButton
+      StaysPressed = True
+      GroupName = 'senko'
+      Position.X = 12.000000000000000000
+      Position.Y = 130.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Attack first'
+    end
+    object SpeedButton11: TSpeedButton
+      StaysPressed = True
+      GroupName = 'senko'
+      Position.X = 14.000000000000000000
+      Position.Y = 162.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Attack later'
+    end
+    object SpeedButton12: TSpeedButton
+      Position.X = 6.000000000000000000
+      Position.Y = 202.000000000000000000
+      Size.Width = 115.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'GAME START'
+      OnClick = SpeedButton12Click
+    end
+    object Line1: TLine
+      LineType = Left
+      Position.X = 52.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 7.000000000000000000
+      Size.Height = 110.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF22A522
+    end
+    object Line2: TLine
+      LineType = Left
+      Position.X = 87.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 7.000000000000000000
+      Size.Height = 110.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF22A522
+    end
+    object Line3: TLine
+      LineType = Top
+      Position.X = 15.000000000000000000
+      Position.Y = 42.000000000000000000
+      Size.Width = 110.000000000000000000
+      Size.Height = 9.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF22A522
+    end
+    object Line4: TLine
+      LineType = Top
+      Position.X = 15.000000000000000000
+      Position.Y = 77.000000000000000000
+      Size.Width = 110.000000000000000000
+      Size.Height = 9.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF22A522
+    end
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    Left = 448
+    Top = 72
+  end
+end
